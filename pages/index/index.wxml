@@ -1,0 +1,8 @@
+<!--index.wxml-->
+<view class='container'>
+  <view class='list-item-student' wx:for='{{studentList}}' wx:key='key'>
+      <view>第{{index+1}}个学生</view>
+      <view>{{item.name}}</view>
+      <view>{{item.sex}}</view>
+  </view>
+</view>
